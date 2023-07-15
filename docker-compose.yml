@@ -13,7 +13,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=userdb
-      - MYSQL_USER=root
       - MYSQL_PASSWORD=password
       - MYSQL_TCP_PORT=3306
     volumes:
